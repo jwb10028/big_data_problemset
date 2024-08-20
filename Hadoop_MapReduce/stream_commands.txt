@@ -1,0 +1,6 @@
+mapred streaming -input jwb10028-hw1/data/20* -output jwb10028-hw1/hw1-unigram -mapper "python mapper.py" -reducer "python reducer.py" -file mapper.py -file reducer.py
+
+mapred streaming -input jwb10028-hw1/hw1-init-count/part* -output jwb10028-hw1/hw1-unigram -mapper "python mapper2.py" -reducer "python reducer2.py" -file mapper2.py -file reducer2.py
+
+mapred streaming -input jwb10028-hw1/hw1-count/part* -output jwb10028-hw1/hw1-unigram-prob -mapper "python prob_map.py" -reducer "python prob_red.py" -file prob_map.py -file prob_red.py -file uni.txt
+

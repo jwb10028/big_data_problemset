@@ -1,0 +1,7 @@
+DayPart,Top3Items,DayType
+Afternoon,"Coffee, Bread, Tea",Weekday
+Afternoon,"Coffee, Bread, Tea",Weekend
+Morning,"Coffee, Bread, Pastry",Weekday
+Morning,"Coffee, Bread, Pastry",Weekend
+Night,"Coffee, Bread, Fudge",Weekday
+Night,"Tshirt, Afternoon with the baker, Postcard",Weekend
