@@ -39,6 +39,4 @@ The third assignment was centered around NoSQL databases, with a particular focu
 - **CRUD Operations**: Performed Create, Read, Update, and Delete (CRUD) operations on the MongoDB collections.
 - **Aggregation**: Used MongoDB’s aggregation framework to perform complex queries and data analysis.
 
----
 
-Feel free to customize it according to any specific requirements or details you want to include!
